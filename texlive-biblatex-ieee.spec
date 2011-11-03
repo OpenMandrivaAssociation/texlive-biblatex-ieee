@@ -1,3 +1,9 @@
+# revision 22384
+# category Package
+# catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-ieee
+# catalog-date 2011-05-09 16:52:20 +0200
+# catalog-license lppl1.3
+# catalog-version 1.0b
 Name:		texlive-biblatex-ieee
 Version:	1.0b
 Release:	1
@@ -49,6 +55,7 @@ the full.).
 %doc %{_texmfdistdir}/doc/latex/biblatex-ieee/README
 %doc %{_texmfdistdir}/doc/latex/biblatex-ieee/biblatex-ieee.pdf
 %doc %{_texmfdistdir}/doc/latex/biblatex-ieee/biblatex-ieee.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ the full.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
