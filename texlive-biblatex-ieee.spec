@@ -1,12 +1,12 @@
-# revision 22384
+# revision 25804
 # category Package
 # catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-ieee
-# catalog-date 2011-05-09 16:52:20 +0200
+# catalog-date 2012-03-24 17:56:50 +0100
 # catalog-license lppl1.3
-# catalog-version 1.0b
+# catalog-version 1.0d
 Name:		texlive-biblatex-ieee
-Version:	1.0b
-Release:	2
+Version:	1.0d
+Release:	1
 Summary:	Ieee style files for biblatex
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-ieee
@@ -24,11 +24,7 @@ of the IEEE for biblatex. The implementation follows standard
 biblatex conventions, and can be used simply by loading
 biblatex with the appropriate option:
 \usepackage[style=ieee]{biblatex} A demonstration database is
-provided to show how to format input for the style. The present
-release is believed to be usable, but work is needed to confirm
-that it is of production quality. (In particular, the release
-does not yet exploit the facilities of biblatex version 1.2 to
-the full.).
+provided to show how to format input for the style.
 
 %post
     %{_sbindir}/texlive.post
