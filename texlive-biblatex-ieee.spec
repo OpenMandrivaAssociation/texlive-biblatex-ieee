@@ -1,11 +1,11 @@
-# revision 25804
+# revision 26189
 # category Package
 # catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-ieee
-# catalog-date 2012-03-24 17:56:50 +0100
+# catalog-date 2012-05-04 00:24:07 +0200
 # catalog-license lppl1.3
-# catalog-version 1.0d
+# catalog-version 1.1
 Name:		texlive-biblatex-ieee
-Version:	1.0d
+Version:	1.1
 Release:	1
 Summary:	Ieee style files for biblatex
 Group:		Publishing
@@ -36,10 +36,14 @@ provided to show how to format input for the style.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/bibtex/bib/biblatex-ieee/biblatex-ieee.bib
+%{_texmfdistdir}/tex/latex/biblatex-ieee/ieee-alphabetic.bbx
+%{_texmfdistdir}/tex/latex/biblatex-ieee/ieee-alphabetic.cbx
 %{_texmfdistdir}/tex/latex/biblatex-ieee/ieee.bbx
 %{_texmfdistdir}/tex/latex/biblatex-ieee/ieee.cbx
 %doc %{_texmfdistdir}/doc/latex/biblatex-ieee/README
+%doc %{_texmfdistdir}/doc/latex/biblatex-ieee/biblatex-ieee-alphabetic.pdf
+%doc %{_texmfdistdir}/doc/latex/biblatex-ieee/biblatex-ieee-alphabetic.tex
+%doc %{_texmfdistdir}/doc/latex/biblatex-ieee/biblatex-ieee.bib
 %doc %{_texmfdistdir}/doc/latex/biblatex-ieee/biblatex-ieee.pdf
 %doc %{_texmfdistdir}/doc/latex/biblatex-ieee/biblatex-ieee.tex
 
@@ -51,4 +55,4 @@ provided to show how to format input for the style.
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
-cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+cp -fpar tex doc %{buildroot}%{_texmfdistdir}
