@@ -1,11 +1,11 @@
-# revision 27183
+# revision 27972
 # category Package
 # catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-ieee
-# catalog-date 2012-07-21 20:46:34 +0200
+# catalog-date 2012-10-12 11:24:08 +0200
 # catalog-license lppl1.3
-# catalog-version 1.1b
+# catalog-version 1.1d
 Name:		texlive-biblatex-ieee
-Version:	1.1b
+Version:	1.1d
 Release:	1
 Summary:	Ieee style files for biblatex
 Group:		Publishing
