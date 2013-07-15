@@ -1,11 +1,11 @@
-# revision 27183
+# revision 27972
 # category Package
 # catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-ieee
-# catalog-date 2012-07-21 20:46:34 +0200
+# catalog-date 2012-10-12 11:24:08 +0200
 # catalog-license lppl1.3
-# catalog-version 1.1b
+# catalog-version 1.1d
 Name:		texlive-biblatex-ieee
-Version:	1.1b
+Version:	1.1d
 Release:	1
 Summary:	Ieee style files for biblatex
 Group:		Publishing
@@ -59,6 +59,10 @@ cp -fpar tex doc %{buildroot}%{_texmfdistdir}
 
 
 %changelog
+* Fri Oct 26 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1d-1
++ Revision: 819879
+- Update to latest release.
+
 * Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1b-1
 + Revision: 812037
 - Update to latest release.
