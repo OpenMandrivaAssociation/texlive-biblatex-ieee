@@ -6,7 +6,7 @@
 # catalog-version 1.1j
 Name:		texlive-biblatex-ieee
 Version:	1.1j
-Release:	7
+Release:	8
 Summary:	Ieee style files for biblatex
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-ieee
