@@ -1,12 +1,6 @@
-# revision 32005
-# category Package
-# catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-ieee
-# catalog-date 2013-10-26 09:47:46 +0200
-# catalog-license lppl1.3
-# catalog-version 1.1j
 Name:		texlive-biblatex-ieee
-Version:	1.1j
-Release:	9
+Version:	1.2d
+Release:	1
 Summary:	Ieee style files for biblatex
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-ieee
@@ -36,16 +30,8 @@ provided to show how to format input for the style.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/biblatex-ieee/ieee-alphabetic.bbx
-%{_texmfdistdir}/tex/latex/biblatex-ieee/ieee-alphabetic.cbx
-%{_texmfdistdir}/tex/latex/biblatex-ieee/ieee.bbx
-%{_texmfdistdir}/tex/latex/biblatex-ieee/ieee.cbx
-%doc %{_texmfdistdir}/doc/latex/biblatex-ieee/README
-%doc %{_texmfdistdir}/doc/latex/biblatex-ieee/biblatex-ieee-alphabetic.pdf
-%doc %{_texmfdistdir}/doc/latex/biblatex-ieee/biblatex-ieee-alphabetic.tex
-%doc %{_texmfdistdir}/doc/latex/biblatex-ieee/biblatex-ieee.bib
-%doc %{_texmfdistdir}/doc/latex/biblatex-ieee/biblatex-ieee.pdf
-%doc %{_texmfdistdir}/doc/latex/biblatex-ieee/biblatex-ieee.tex
+%{_texmfdistdir}/tex/latex/biblatex-ieee
+%doc %{_texmfdistdir}/doc/latex/biblatex-ieee
 
 #-----------------------------------------------------------------------
 %prep
