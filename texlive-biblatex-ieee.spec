@@ -1,6 +1,6 @@
 Name:		texlive-biblatex-ieee
-Version:	61243
-Release:	2
+Version:	72032
+Release:	1
 Summary:	Ieee style files for biblatex
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-ieee
